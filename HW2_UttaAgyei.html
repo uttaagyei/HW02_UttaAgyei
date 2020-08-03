@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW02-JS_UttaAgyei</title>
+    
+</head>
+<body> 
+    <p>   
+        <span class="output"></span> 
+    </p> 
+  
+    <button onclick="getCurrentDate()"> 
+        Get Date 
+    </button> 
+      
+    <script type="text/javascript"> 
+        function getCurrentDate() { 
+            let date = new Date(); 
+  
+            document.querySelector('.output').textContent = date; 
+        } 
+    </script> 
+</body>
+</html>
